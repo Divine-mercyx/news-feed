@@ -24,6 +24,11 @@
   color: white;
 }
 
+.col-lg {
+  background-color: #101010;
+  border-radius: 9px;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +40,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.img {
+  border-radius: 10px;
 }
