@@ -7,10 +7,11 @@ const Header = ({changeCategory, currentCategory}) => {
         <div className="container mt-4">
             <nav class="navbar navbar-expand-sm navbar-dark">
             <div class="container-fluid">
-                <h1 className="display-1  font-weight-bolder"><a class="text-light text-decoration-none" href="#">
+            	<h1 className="display-1 font-weight-bolder">Daily planet</h1>
+                <span className="display-1  font-weight-bolder"><a class="text-light text-decoration-none" href="#">
                     <b>{ `${currentCategory.charAt(0).toUpperCase() + currentCategory.slice(1)}  Feeds`}</b>  
                   
-                </a></h1>
+                </a></span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
                 </button>
