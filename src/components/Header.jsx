@@ -20,7 +20,7 @@ const Header = ({changeCategory, currentCategory}) => {
                     <a class="nav-link" onClick={() => changeCategory('home')}  href="#">For you</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link active" onClick={() => changeCategory('arts')} href="#">Arts</a>
+                    <a class="nav-link" onClick={() => changeCategory('arts')} href="#">Arts</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" onClick={() => changeCategory('us')} href="#">United states</a>

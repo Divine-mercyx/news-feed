@@ -57,3 +57,7 @@
 .card-container:hover {
   transform: scale(1.05);
 }
+
+.text {
+  color: lightgrey;
+}

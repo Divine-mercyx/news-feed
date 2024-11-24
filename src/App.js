@@ -40,10 +40,10 @@ function App() {
         <div className='col-lg'>
           <img className='img container-fluid' src={ feed.multimedia[0].url } alt={ feed.multimedia[0].caption}/>
           <h4 className='text-light p-3 font-weight'>{feed.title}</h4>
-          <p className='p-3 text-secondary'>
+          <p className='p-3 text'>
             {feed.abstract}
           </p>
-          <p className='text-light p-3'>
+          <p className=' text-secondary p-3'>
             {feed.item_type} {feed.byline}
           </p>
         </div>
