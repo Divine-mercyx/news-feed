@@ -9,7 +9,7 @@ const Header = ({changeCategory, currentCategory}) => {
             <nav class="navbar navbar-expand-sm navbar-dark">
             <div class="container-fluid">
             	<h1 className="display-1 text-light font-weight-bolder">Daily planet</h1>
-                <span className="span font-weight-bolder"><a class="text-light text-decoration-none" href="#">
+                <span className="span ml-4 bg-dark p-3 font-weight-bolder"><a class="text-light text-decoration-none" href="#">
                     <b>{ `${currentCategory.charAt(0).toUpperCase() + currentCategory.slice(1)}  Feeds`}</b>  
                   
                 </a></span>
